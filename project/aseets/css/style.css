@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#3584EC;
+    --secondary-color:#2C7BE3;
+    --text-color:#17191B;
+    --discriptiontext-color:#6C7C81;
+    --bg-color:#FFFFFF;
+    --title-text:"Schibsted Grotesk";
+    --fs:16px;
+    --fw:400;
+    --lh:1.5;
+    --gw:15px;
+}
+body{
+     background-color:var(--bg-color);
+     color:var(--text-color);
+     font-family: var(--discription-text);
+     font-size: var(--fs);
+     font-weight:var(--fw);
+     line-height: var(--lh);
+
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+ ul li {
+   
+    list-style: none;
+   display: flex;
+   display: inline-block;
+   padding-right:5px;
+   
+}
+ul  li a i:not(:last-child){
+    margin-right: 6px;
+    
+}
+
+.social-icons ul li a i{
+    margin-right: 7px;
+}
+.contact-info ul li a {
+   margin-right: 20px;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--title-font);
+    font-weight: 400;
+}
+.container{
+       max-width: 1920px;
+       padding-left: var(--gw);
+       padding-right: var(--gw);
+       background-color: #2C7BE3;
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gw));
+    margin-right: calc(-1 * var(--gw));
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.col-1{
+    width: 8.3333%;
+}
+.col-2{
+    width: 16.6666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333%;
+}
+.col-5{
+    width: 41.6666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333%;
+}
+.col-8{
+    width: 66.6666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333%;
+}
+.col-11{
+    width: 91.6666%;
+}
+.col-12{
+    width: 100%;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    padding-left: var(--gw);
+    padding-right: var(--gw);
+} 
+.items-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+i{
+    color:white;
+    font-size: 15px;
+    padding-top:3px;
+    padding-bottom: 3px;
+}
+span{
+    color: white;
+    font-size:15px;
+}
+.contects {
+    width: 100%;
+    
+    margin-left: 350px;
+}
