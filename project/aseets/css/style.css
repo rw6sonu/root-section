@@ -31,9 +31,6 @@ img{
     display: block;
 }
 
-
-
-
 .social-icons ul {
     display: flex;
 }
@@ -125,7 +122,13 @@ h1, h2, h3, h4, h5, h6{
 .justify-end{
     justify-content: flex-end;
 }
-i{
+.contact-info ul li a i{
+    color:white;
+    font-size: 15px;
+    padding-top:3px;
+    padding-bottom: 3px;
+}
+.social-icons ul li a i{
     color:white;
     font-size: 15px;
     padding-top:3px;
@@ -145,11 +148,10 @@ nav ul li{
 
     
 }
-nav ul li a{
+nav  ul li a{
 color: #17191B;
 font-size: 18px;
-font-weight: 600;
-    
+font-weight: 600;    
 }
 .topbar{
     background-color:#2C7BE3;
@@ -180,4 +182,9 @@ font-weight: 600;
     font-size: 18px;
     font-weight: 500;   
 }
+.btn i{
+    color:white;
+}
+
+
 
